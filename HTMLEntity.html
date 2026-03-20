@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Entities</title>
+</head>
+<body>
+
+    <!-- 👉 Problem kya hai?
+
+HTML kuch symbols ko apni language samajhta hai.
+
+Example:
+
+<p>5 < 10</p>
+
+👉 Ye galat hai, kyunki:
+
+< ko HTML tag start samajh lega
+
+🔹 Solution kya hai?
+
+👉 Hum direct symbol nahi likhte
+👉 Uska code (entity) likhte hain
+
+<p>5 &lt; 10</p>
+
+✔ Output:
+5 < 10
+
+🔹 Basic 3 yaad rakho (IMPORTANT)
+Symbol	Entity
+<	&lt;
+>	&gt;
+&	&amp;
+
+👉 Bas ye 3 80% kaam me aate hain
+
+🔹 Space wala concept (MOST IMPORTANT 🔥)
+❌ Normal space
+Hello     Hind
+
+✔ Output:
+
+Hello Hind
+
+👉 Extra space ignore ho jata hai
+
+✔ Solution:
+Hello&nbsp;&nbsp;&nbsp;Hind
+
+✔ Output:
+
+Hello   Hind
+
+👉 &nbsp; = ek extra space
+
+🔹 Real Life Use
+<p>5 &lt; 10</p>
+<p>Tom &amp; Jerry</p>
+<p>© 2026</p>
+🔹 Ek line me samjho
+
+👉 HTML Entities =
+"Special characters ko safe tarike se dikhane ka tarika" -->
+  
+
+    Hello&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hind
+
+    &copy; 2026
+    <p>5 &lt; 10</p>
+<p>Copyright &copy; 2026</p>
+<p>Hello&nbsp;&nbsp;Hind</p>
+
+    
+</body>
+</html>
